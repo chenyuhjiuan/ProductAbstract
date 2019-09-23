@@ -18,7 +18,7 @@ public abstract class Product {
                 "Description:        " + description + "\n" +
                 "Price:              " + this.getFormattedPrice(price) + "\n";
     }
-
+//abstract method getFormattedPrice(price)
     abstract public double getFormattedPrice(double price);
 
     // Create public access for the count variable
