@@ -12,7 +12,7 @@ public class Software extends Product {
     }
     //implement parent's abstract method
     public double getFormattedPrice(double price) {
-        return 0;
+        return price;
     }
 
     public static void main(String args[]){
